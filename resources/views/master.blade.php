@@ -17,6 +17,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <style>
+        .custom-login {
+            height: 500px;
+            padding-top: 100px;
+        }
+    </style>
 
 </head>
 
@@ -26,10 +32,5 @@
     Welcome on Master Page
     {{View::make('footer')}}
 </body>
-<script>
-    .custom_login{
-        height: 500px;
-        padding-top: 100px;
-    }
-</script>
+
 </html>
